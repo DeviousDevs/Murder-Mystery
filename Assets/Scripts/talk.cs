@@ -30,17 +30,17 @@ public class talk : MonoBehaviour
         if (collider.gameObject == Caroline)
         {
             name.text = "Caroline:";
-            text.text = "''hi''";
+            text.text = "''Hello!''";
         }
         if (collider.gameObject == Alexandria)
         {
             name.text = "Alexandria:";
-            text.text = "''hi''";
+            text.text = "''Hello!''";
         }
         if (collider.gameObject == Drew)
         {
             name.text = "Drew:";
-            text.text = "''hi''";
+            text.text = "''Hello!''";
         }
         if (collider.gameObject == Police)
         {
@@ -54,7 +54,7 @@ public class talk : MonoBehaviour
             }
             if(itemAmt > 1)
             {
-                text.text = "''wow!''";
+                text.text = "''wow! you found evidence!''";
             }
             else
             {
