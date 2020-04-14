@@ -32,15 +32,6 @@ public class movement : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Collectable")
-        {
-            //maybe look into dictionaries
-            inventory[filled] = collision.gameObject;
-            filled++;
-            collision.gameObject.SetActive(false);
-        }
-    }
+   
 
 }
